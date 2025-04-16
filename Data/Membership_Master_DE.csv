@@ -1,0 +1,11 @@
+MemberID,FirstName,LastName,Email,JoinDate,LastStoreVisited,OptInStatus
+M001,John,Doe,john.doe@email.com,1/11/2023,Gourmet Town,TRUE
+M002,Jane,Smith,jane.smith@email.com,2/11/2023,Foodie Haven,TRUE
+M003,Alice,Brown,alice.brown@email.com,2/11/2023,Bistro Bliss,FALSE
+M004,Bob,Green,bob.green@email.com,3/11/2023,Culinary Cove,TRUE
+M005,Carol,Johnson,carol.johnson@email.com,1/11/2023,Gourmet Town,TRUE
+M006,David,Lee,david.lee@email.com,1/11/2023,Foodie Haven,TRUE
+M007,Ella,Harris,ella.harris@email.com,2/11/2023,Bistro Bliss,TRUE
+M008,Frank,White,frank.white@email.com,3/11/2023,Culinary Cove,TRUE
+M009,Grace,Moore,grace.moore@email.com,2/11/2023,Gourmet Town,TRUE
+M010,Henry,King,henry.king@email.com,2/11/2023,Foodie Haven,TRUE
