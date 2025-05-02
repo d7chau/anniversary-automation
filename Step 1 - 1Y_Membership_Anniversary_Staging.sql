@@ -36,7 +36,7 @@ AND            EXISTS     (
                               AND            TXN.TransactionDate >= DATEADD(YEAR, -1, GETDATE() AT TIME ZONE 'Central Standard Time' AT TIME ZONE 'Eastern Standard Time')
                           )
 
-/* CHECKING THAT RECORDS DO NOT EXIST IN JOURNEY ENTRY DE ALREADY (NO REPEAT RECORDS AS IT IS ONE TIME ONLY) */
+/* EXCLUDING MEMBERS WHO HAVE ALREADY ENTERED THE JOURNEY (NO REPEAT RECORDS AS IT IS ONE TIME ONLY) */
 AND            NOT EXISTS (
                               SELECT         1
                               FROM           [1Y_Membership_Anniversary_JourneyEntry] JOURNEY
