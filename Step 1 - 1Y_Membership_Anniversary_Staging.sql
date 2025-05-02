@@ -32,7 +32,7 @@ AND            CAST(DATEADD(YEAR, 1, MEMBER.JoinDate) AS DATE) = CAST(GETDATE() 
 AND            EXISTS     (
                               SELECT         1
                               FROM           [Transactions_DE] TXN
-                              WHERE          MEMBER.MemberID = TXN.MembershipDiscount
+                              WHERE          MEMBER.MemberID = TXN.MemberID
                               AND            TXN.TransactionDate >= DATEADD(YEAR, -1, GETDATE() AT TIME ZONE 'Central Standard Time' AT TIME ZONE 'Eastern Standard Time')
                           )
 
