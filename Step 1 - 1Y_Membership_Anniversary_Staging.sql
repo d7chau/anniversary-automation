@@ -10,7 +10,6 @@ SELECT         MEMBER.*,
                X.TotalSpent,
                /* SETTING DISCOUNT EXPIRATION TO 1 MONTH FROM TODAY */
                DATEADD(MONTH, 1, GETDATE() AT TIME ZONE 'Central Standard Time' AT TIME ZONE 'Eastern Standard Time') AS DiscountExpiration,
-  
                /* CAPTURE CURRENT TIMESTAMP FOR JOURNEY ENTRY */
                GETDATE() AT TIME ZONE 'Central Standard Time' AT TIME ZONE 'Eastern Standard Time' AS JourneyEntryDate
 
