@@ -1,7 +1,7 @@
 /* UPDATING JOURNEY ENTRY DE TO FLAG MEMBERS WHO HAVE REDEEMED */
 
 SELECT          JOURNEY.MemberID,
-                1 AS HasClaimedDiscount /* FLAG INDICATING MEMBER HAS REDEEMED DISCOUNT */
+                1 AS HasClaimedDiscount -- Flag Indicating Member Has Redeemed Discount
 FROM            [1Y_Membership_Anniversary_JourneyEntry] JOURNEY
 
 /* FIND MEMBERS WHO HAVE REDEEMED THEIR DISCOUNT */
